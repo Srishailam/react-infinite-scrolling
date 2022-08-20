@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  background-color: rgb(161, 167, 151);
 }
 
 .App-logo {
@@ -35,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MerchantsContainer {
+  margin: 10px 50px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  background: white;
 }
